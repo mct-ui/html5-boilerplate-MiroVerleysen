@@ -4,6 +4,7 @@ html {
   font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
   color: #111;
   padding: 24px 24px 0;
+  scroll-behavior: smooth;
 }
 
 ::selection {
@@ -32,9 +33,9 @@ h2 {
 }
 
 h3 {
-    font-size: 18px;
-    line-height: 24px;
-    margin: 0 0 24px;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 0 24px;
 }
 
 h4,
@@ -58,13 +59,13 @@ figure {
 ul,
 ol,
 blockquote {
-    font-size: inherit;
-    line-height: inherit;
+  font-size: inherit;
+  line-height: inherit;
 }
 
 li ul,
 li ol {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 blockquote {
@@ -83,15 +84,15 @@ figcaption {
 }
 
 hr {
-    border: 0;
-    height: 1px;
-    background: lightgrey;
-    margin: 0 0 24px;
+  border: 0;
+  height: 1px;
+  background: lightgrey;
+  margin: 0 0 24px;
 }
 
 a {
   color: royalblue;
-  transition: all .1s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 
 a:hover,
@@ -104,26 +105,42 @@ a:active {
   color: blueviolet;
 }
 
+table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+th {
+  text-align: left;
+}
+
+th,
+td {
+  padding: 4px 8px;
+  border-bottom: 1px solid gainsboro;
+}
+
+.odd {
+  background-color: whitesmoke;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    h1 {
-        font-size: 58px;
-        line-height: 64px;
-        padding: 48px 48px 24px;
-    }
+  h1 {
+    font-size: 58px;
+    line-height: 64px;
+    padding: 48px 48px 24px;
+  }
 }
 
 /* Large devices (landscape tablets, desktops, 992px and up) */
 @media (min-width: 992px) {
-
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
 }
