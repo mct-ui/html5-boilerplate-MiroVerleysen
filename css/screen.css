@@ -32,6 +32,9 @@ h2 {
 }
 
 h3 {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 0 24px;
 }
 
 h4,
@@ -55,10 +58,13 @@ figure {
 ul,
 ol,
 blockquote {
+    font-size: inherit;
+    line-height: inherit;
 }
 
 li ul,
 li ol {
+    margin-bottom: 0;
 }
 
 blockquote {
@@ -77,6 +83,10 @@ figcaption {
 }
 
 hr {
+    border: 0;
+    height: 1px;
+    background: lightgrey;
+    margin: 0 0 24px;
 }
 
 a {
@@ -104,6 +114,7 @@ a:active {
     h1 {
         font-size: 58px;
         line-height: 64px;
+        padding: 48px 48px 24px;
     }
 }
 
